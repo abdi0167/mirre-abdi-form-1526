@@ -1,0 +1,103 @@
+ * {
+     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+ }
+
+ .wrapper {
+     width: 100%;
+     margin: none;
+ }
+
+ legend {
+     width: auto;
+     padding: 15px 10px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     background: #fff;
+ }
+
+ fieldset {
+     padding: 1em;
+     background: #eee;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+
+ }
+
+ .lgnd {
+     font-size: 20px;
+ }
+
+ .btn {
+     border-radius: 6px;
+     padding: 0.5em 1em;
+     font-size: 16px;
+     background: #6592ed;
+     color: #fff;
+ }
+
+
+
+ #fullname,
+ #email,
+ #message,
+ #submit-button {
+     width: 100%;
+     padding: 0.725em;
+     border-radius: 4px;
+     border: 1px solid #ccc;
+
+ }
+
+ #fullname,
+ #email {
+     width: 96.5%;
+ }
+
+ #message {
+     padding: 1em 0;
+ }
+
+ .form-group {
+     margin-bottom: 25px;
+
+ }
+
+ @media only screen and (min-width: 25rem) {}
+
+
+
+ @media only screen and (min-width: 40rem) {
+     .wrapper {
+         width: 90%;
+         margin: 0 auto;
+     }
+
+     #fullname,
+     #email {
+         width: 100%;
+     }
+     .name,
+     .email {
+         width: 47%;
+         float: left;
+     }
+     #submit-button {
+         width: 125px;
+     }
+     .name {
+         margin-right: 1.5%;
+     }
+     .email {
+         margin-left: 2.5%;
+     }
+
+
+ }
+
+ @media only screen and (min-width: 50rem) {
+     .wrapper {
+         width: 80%;
+         margin: 0 auto;
+     }
+
+ }
